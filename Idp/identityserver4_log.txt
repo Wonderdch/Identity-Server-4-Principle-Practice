@@ -12,3 +12,305 @@
 2019-04-30 19:00:26.728 +08:00 [DBG] Consent Return Url Parameter: returnUrl
 2019-04-30 19:00:26.729 +08:00 [DBG] Error Url: /home/error
 2019-04-30 19:00:26.730 +08:00 [DBG] Error Id Parameter: errorId
+2019-05-01 09:28:18.450 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-05-01 09:28:18.499 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-05-01 09:28:18.502 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-05-01 09:28:18.502 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-05-01 09:28:18.503 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-05-01 09:28:18.503 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-05-01 09:28:18.503 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-05-01 09:28:27.977 +08:00 [DBG] Login Url: /Account/Login
+2019-05-01 09:28:27.982 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-05-01 09:28:27.985 +08:00 [DBG] Logout Url: /Account/Logout
+2019-05-01 09:28:27.987 +08:00 [DBG] ConsentUrl Url: /consent
+2019-05-01 09:28:27.989 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-05-01 09:28:27.991 +08:00 [DBG] Error Url: /home/error
+2019-05-01 09:28:27.992 +08:00 [DBG] Error Id Parameter: errorId
+2019-05-01 09:38:32.085 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 09:38:32.091 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 09:38:32.092 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 09:38:32.096 +08:00 [DBG] Start discovery request
+2019-05-01 09:50:22.451 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 09:50:22.454 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 09:50:22.462 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 09:50:22.465 +08:00 [DBG] Start discovery request
+2019-05-01 09:50:22.725 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 09:50:22.730 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 09:50:22.733 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 09:50:22.744 +08:00 [DBG] Start key discovery request
+2019-05-01 10:11:18.784 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 10:11:18.787 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 10:11:18.788 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 10:11:18.789 +08:00 [DBG] Start discovery request
+2019-05-01 10:11:18.939 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 10:11:18.943 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 10:11:18.946 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 10:11:18.953 +08:00 [DBG] Start key discovery request
+2019-05-01 10:11:19.319 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 10:11:19.334 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 10:11:19.338 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 10:11:19.353 +08:00 [DBG] Start token request.
+2019-05-01 10:11:19.368 +08:00 [DBG] Start client validation
+2019-05-01 10:11:19.377 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 10:11:19.383 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 10:11:19.405 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 10:11:19.406 +08:00 [DBG] Secret id found: console client
+2019-05-01 10:11:19.421 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:11:19.431 +08:00 [DBG] No matching hashed secret found.
+2019-05-01 10:11:19.432 +08:00 [DBG] Secret validators could not validate secret
+2019-05-01 10:11:19.469 +08:00 [INF] {"ClientId":"console client","Category":"Authentication","Name":"Client Authentication Failure","EventType":"Failure","Id":1011,"Message":"Invalid client secret","ActivityId":"0HLMDQH7V44VQ:00000003","TimeStamp":"2019-05-01T02:11:19.0000000Z","ProcessId":9428,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationFailureEvent"}
+2019-05-01 10:11:19.484 +08:00 [ERR] Client secret validation failed for client: console client.
+2019-05-01 10:12:02.497 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 10:12:02.499 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 10:12:02.501 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 10:12:02.502 +08:00 [DBG] Start discovery request
+2019-05-01 10:12:02.641 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 10:12:02.643 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 10:12:02.644 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 10:12:02.646 +08:00 [DBG] Start key discovery request
+2019-05-01 10:12:02.991 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 10:12:02.997 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 10:12:03.000 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 10:12:03.004 +08:00 [DBG] Start token request.
+2019-05-01 10:12:03.007 +08:00 [DBG] Start client validation
+2019-05-01 10:12:03.009 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 10:12:03.012 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 10:12:03.015 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 10:12:03.018 +08:00 [DBG] Secret id found: console client1
+2019-05-01 10:12:03.019 +08:00 [INF] {"ClientId":"console client1","Category":"Authentication","Name":"Client Authentication Failure","EventType":"Failure","Id":1011,"Message":"Unknown client","ActivityId":"0HLMDQH7V44VR:00000003","TimeStamp":"2019-05-01T02:12:03.0000000Z","ProcessId":9428,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationFailureEvent"}
+2019-05-01 10:12:03.024 +08:00 [ERR] No client with id 'console client1' found. aborting
+2019-05-01 10:12:15.676 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 10:12:15.678 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 10:12:15.680 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 10:12:15.682 +08:00 [DBG] Start discovery request
+2019-05-01 10:12:15.844 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 10:12:15.848 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 10:12:15.851 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 10:12:15.853 +08:00 [DBG] Start key discovery request
+2019-05-01 10:12:16.313 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 10:12:16.317 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 10:12:16.320 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 10:12:16.323 +08:00 [DBG] Start token request.
+2019-05-01 10:12:16.324 +08:00 [DBG] Start client validation
+2019-05-01 10:12:16.330 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 10:12:16.331 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 10:12:16.334 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 10:12:16.335 +08:00 [DBG] Secret id found: console client
+2019-05-01 10:12:16.337 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:12:16.343 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-01 10:12:16.345 +08:00 [DBG] Client validation success
+2019-05-01 10:12:16.347 +08:00 [INF] {"ClientId":"console client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLMDQH7V44VS:00000003","TimeStamp":"2019-05-01T02:12:16.0000000Z","ProcessId":9428,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-05-01 10:12:16.362 +08:00 [DBG] Start token request validation
+2019-05-01 10:12:16.376 +08:00 [DBG] Start client credentials token request validation
+2019-05-01 10:12:16.390 +08:00 [ERR] No allowed scopes configured for ["console client"], request details: {"ClientId":"console client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":null,"AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","client_id":"console client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-05-01 10:12:16.406 +08:00 [INF] {"ClientId":"console client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":null,"GrantType":"client_credentials","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLMDQH7V44VS:00000003","TimeStamp":"2019-05-01T02:12:16.0000000Z","ProcessId":9428,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-05-01 10:13:07.363 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-05-01 10:13:07.413 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-05-01 10:13:07.416 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-05-01 10:13:07.417 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-05-01 10:13:07.417 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-05-01 10:13:07.418 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-05-01 10:13:07.418 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-05-01 10:14:06.041 +08:00 [DBG] Login Url: /Account/Login
+2019-05-01 10:14:06.044 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-05-01 10:14:06.048 +08:00 [DBG] Logout Url: /Account/Logout
+2019-05-01 10:14:06.049 +08:00 [DBG] ConsentUrl Url: /consent
+2019-05-01 10:14:06.049 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-05-01 10:14:06.050 +08:00 [DBG] Error Url: /home/error
+2019-05-01 10:14:06.051 +08:00 [DBG] Error Id Parameter: errorId
+2019-05-01 10:14:06.077 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 10:14:06.081 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 10:14:06.083 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 10:14:06.087 +08:00 [DBG] Start discovery request
+2019-05-01 10:14:06.332 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 10:14:06.360 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 10:14:06.361 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 10:14:06.365 +08:00 [DBG] Start key discovery request
+2019-05-01 10:14:06.728 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 10:14:06.736 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 10:14:06.737 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 10:14:06.747 +08:00 [DBG] Start token request.
+2019-05-01 10:14:06.753 +08:00 [DBG] Start client validation
+2019-05-01 10:14:06.758 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 10:14:06.764 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 10:14:06.784 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 10:14:06.785 +08:00 [DBG] Secret id found: console client
+2019-05-01 10:14:06.798 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:14:06.808 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-01 10:14:06.808 +08:00 [DBG] Client validation success
+2019-05-01 10:14:06.835 +08:00 [INF] {"ClientId":"console client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLMDRANVV4IN:00000003","TimeStamp":"2019-05-01T02:14:06.0000000Z","ProcessId":13720,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-05-01 10:14:06.857 +08:00 [DBG] Start token request validation
+2019-05-01 10:14:06.866 +08:00 [DBG] Start client credentials token request validation
+2019-05-01 10:14:06.893 +08:00 [DBG] console client credentials token request validation success
+2019-05-01 10:14:06.905 +08:00 [INF] Token request validation success
+{"ClientId":"console client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","client_id":"console client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-05-01 10:14:06.936 +08:00 [DBG] Getting claims for access token for client: console client
+2019-05-01 10:14:07.029 +08:00 [INF] {"ClientId":"console client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****R8RQ","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLMDRANVV4IN:00000003","TimeStamp":"2019-05-01T02:14:07.0000000Z","ProcessId":13720,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-05-01 10:14:07.049 +08:00 [DBG] Token request success.
+2019-05-01 10:40:48.433 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-05-01 10:40:48.489 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-05-01 10:40:48.492 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-05-01 10:40:48.493 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-05-01 10:40:48.494 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-05-01 10:40:48.495 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-05-01 10:40:48.496 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-05-01 10:43:46.194 +08:00 [DBG] Login Url: /Account/Login
+2019-05-01 10:43:46.197 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-05-01 10:43:46.198 +08:00 [DBG] Logout Url: /Account/Logout
+2019-05-01 10:43:46.199 +08:00 [DBG] ConsentUrl Url: /consent
+2019-05-01 10:43:46.200 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-05-01 10:43:46.201 +08:00 [DBG] Error Url: /home/error
+2019-05-01 10:43:46.201 +08:00 [DBG] Error Id Parameter: errorId
+2019-05-01 10:43:46.223 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 10:43:46.229 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 10:43:46.231 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 10:43:46.236 +08:00 [DBG] Start discovery request
+2019-05-01 10:43:46.487 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 10:43:46.498 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 10:43:46.499 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 10:43:46.504 +08:00 [DBG] Start key discovery request
+2019-05-01 10:43:46.877 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 10:43:46.894 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 10:43:46.898 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 10:43:46.917 +08:00 [DBG] Start token request.
+2019-05-01 10:43:46.925 +08:00 [DBG] Start client validation
+2019-05-01 10:43:46.932 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 10:43:46.938 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 10:43:46.975 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 10:43:46.976 +08:00 [DBG] Secret id found: console client
+2019-05-01 10:43:46.993 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:43:47.005 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-01 10:43:47.005 +08:00 [DBG] Client validation success
+2019-05-01 10:43:47.037 +08:00 [INF] {"ClientId":"console client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLMDRRAGPNR5:00000003","TimeStamp":"2019-05-01T02:43:47.0000000Z","ProcessId":2664,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-05-01 10:43:47.059 +08:00 [DBG] Start token request validation
+2019-05-01 10:43:47.067 +08:00 [DBG] Start client credentials token request validation
+2019-05-01 10:43:47.092 +08:00 [DBG] console client credentials token request validation success
+2019-05-01 10:43:47.118 +08:00 [INF] Token request validation success
+{"ClientId":"console client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"console client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-05-01 10:43:47.158 +08:00 [DBG] Getting claims for access token for client: console client
+2019-05-01 10:43:47.288 +08:00 [INF] {"ClientId":"console client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****jBDg","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLMDRRAGPNR5:00000003","TimeStamp":"2019-05-01T02:43:47.0000000Z","ProcessId":2664,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-05-01 10:43:47.302 +08:00 [DBG] Token request success.
+2019-05-01 10:43:54.289 +08:00 [DBG] Request path /connect/userinfo matched to endpoint type Userinfo
+2019-05-01 10:43:54.296 +08:00 [DBG] Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint
+2019-05-01 10:43:54.299 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo
+2019-05-01 10:43:54.323 +08:00 [DBG] Start userinfo request
+2019-05-01 10:43:54.328 +08:00 [DBG] Bearer token found in header
+2019-05-01 10:43:54.403 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:43:54.409 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:43:54.414 +08:00 [ERR] Checking for expected scope openid failed
+{"ClientId":null,"ClientName":null,"ValidateLifetime":true,"AccessTokenType":"Jwt","ExpectedScope":"openid","TokenHandle":null,"JwtId":null,"Claims":{"nbf":1556678627,"exp":1556682227,"iss":"http://localhost:5000","aud":["http://localhost:5000/resources","api1"],"client_id":"console client","scope":"api1"},"$type":"TokenValidationLog"}
+2019-05-01 10:44:57.366 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 10:44:57.369 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 10:44:57.371 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 10:44:57.372 +08:00 [DBG] Start discovery request
+2019-05-01 10:44:57.565 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 10:44:57.569 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 10:44:57.572 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 10:44:57.577 +08:00 [DBG] Start key discovery request
+2019-05-01 10:44:57.992 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 10:44:57.997 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 10:44:58.001 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 10:44:58.004 +08:00 [DBG] Start token request.
+2019-05-01 10:44:58.006 +08:00 [DBG] Start client validation
+2019-05-01 10:44:58.008 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 10:44:58.009 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 10:44:58.011 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 10:44:58.011 +08:00 [DBG] Secret id found: console client
+2019-05-01 10:44:58.013 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:44:58.018 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-01 10:44:58.019 +08:00 [DBG] Client validation success
+2019-05-01 10:44:58.020 +08:00 [INF] {"ClientId":"console client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLMDRRAGPNR7:00000003","TimeStamp":"2019-05-01T02:44:58.0000000Z","ProcessId":2664,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-05-01 10:44:58.024 +08:00 [DBG] Start token request validation
+2019-05-01 10:44:58.024 +08:00 [DBG] Start client credentials token request validation
+2019-05-01 10:44:58.027 +08:00 [ERR] ["console client"] cannot request OpenID scopes in client credentials flow, request details: {"ClientId":"console client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1 openid","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1 openid","client_id":"console client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-05-01 10:44:58.036 +08:00 [INF] {"ClientId":"console client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1 openid","GrantType":"client_credentials","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLMDRRAGPNR7:00000003","TimeStamp":"2019-05-01T02:44:58.0000000Z","ProcessId":2664,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-05-01 10:51:33.169 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-05-01 10:51:33.233 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-05-01 10:51:33.239 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-05-01 10:51:33.240 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-05-01 10:51:33.241 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-05-01 10:51:33.241 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-05-01 10:51:33.242 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-05-01 10:51:39.360 +08:00 [DBG] Login Url: /Account/Login
+2019-05-01 10:51:39.362 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-05-01 10:51:39.365 +08:00 [DBG] Logout Url: /Account/Logout
+2019-05-01 10:51:39.366 +08:00 [DBG] ConsentUrl Url: /consent
+2019-05-01 10:51:39.367 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-05-01 10:51:39.368 +08:00 [DBG] Error Url: /home/error
+2019-05-01 10:51:39.369 +08:00 [DBG] Error Id Parameter: errorId
+2019-05-01 10:51:39.392 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 10:51:39.397 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 10:51:39.398 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 10:51:39.405 +08:00 [DBG] Start discovery request
+2019-05-01 10:51:39.631 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 10:51:39.656 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 10:51:39.670 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 10:51:39.675 +08:00 [DBG] Start key discovery request
+2019-05-01 10:51:39.981 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 10:51:39.989 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 10:51:39.990 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 10:51:40.000 +08:00 [DBG] Start token request.
+2019-05-01 10:51:40.006 +08:00 [DBG] Start client validation
+2019-05-01 10:51:40.011 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 10:51:40.015 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 10:51:40.039 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 10:51:40.039 +08:00 [DBG] Secret id found: console client
+2019-05-01 10:51:40.054 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 10:51:40.063 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-01 10:51:40.064 +08:00 [DBG] Client validation success
+2019-05-01 10:51:40.087 +08:00 [INF] {"ClientId":"console client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLMDRVNH9QE8:00000003","TimeStamp":"2019-05-01T02:51:40.0000000Z","ProcessId":19908,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-05-01 10:51:40.113 +08:00 [DBG] Start token request validation
+2019-05-01 10:51:40.128 +08:00 [DBG] Start client credentials token request validation
+2019-05-01 10:51:40.177 +08:00 [ERR] ["console client"] cannot request OpenID scopes in client credentials flow, request details: {"ClientId":"console client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1 openid","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1 openid","client_id":"console client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-05-01 10:51:40.195 +08:00 [INF] {"ClientId":"console client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1 openid","GrantType":"client_credentials","Error":"invalid_scope","ErrorDescription":null,"Category":"Token","Name":"Token Issued Failure","EventType":"Failure","Id":2001,"Message":null,"ActivityId":"0HLMDRVNH9QE8:00000003","TimeStamp":"2019-05-01T02:51:40.0000000Z","ProcessId":19908,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedFailureEvent"}
+2019-05-01 11:11:52.248 +08:00 [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2019-05-01 11:11:52.305 +08:00 [INF] Using the default authentication scheme idsrv for IdentityServer
+2019-05-01 11:11:52.308 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for authentication
+2019-05-01 11:11:52.309 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-in
+2019-05-01 11:11:52.309 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for sign-out
+2019-05-01 11:11:52.310 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for challenge
+2019-05-01 11:11:52.310 +08:00 [DBG] Using idsrv as default ASP.NET Core scheme for forbid
+2019-05-01 11:12:59.251 +08:00 [DBG] Login Url: /Account/Login
+2019-05-01 11:12:59.253 +08:00 [DBG] Login Return Url Parameter: ReturnUrl
+2019-05-01 11:12:59.255 +08:00 [DBG] Logout Url: /Account/Logout
+2019-05-01 11:12:59.255 +08:00 [DBG] ConsentUrl Url: /consent
+2019-05-01 11:12:59.256 +08:00 [DBG] Consent Return Url Parameter: returnUrl
+2019-05-01 11:12:59.257 +08:00 [DBG] Error Url: /home/error
+2019-05-01 11:12:59.258 +08:00 [DBG] Error Id Parameter: errorId
+2019-05-01 11:12:59.282 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 11:12:59.288 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 11:12:59.290 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 11:12:59.295 +08:00 [DBG] Start discovery request
+2019-05-01 11:12:59.583 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 11:12:59.618 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 11:12:59.627 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 11:12:59.633 +08:00 [DBG] Start key discovery request
+2019-05-01 11:12:59.995 +08:00 [DBG] Request path /connect/token matched to endpoint type Token
+2019-05-01 11:13:00.010 +08:00 [DBG] Endpoint enabled: Token, successfully created handler: IdentityServer4.Endpoints.TokenEndpoint
+2019-05-01 11:13:00.011 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.TokenEndpoint for /connect/token
+2019-05-01 11:13:00.020 +08:00 [DBG] Start token request.
+2019-05-01 11:13:00.026 +08:00 [DBG] Start client validation
+2019-05-01 11:13:00.033 +08:00 [DBG] Start parsing Basic Authentication secret
+2019-05-01 11:13:00.037 +08:00 [DBG] Start parsing for secret in post body
+2019-05-01 11:13:00.060 +08:00 [DBG] Parser found secret: PostBodySecretParser
+2019-05-01 11:13:00.061 +08:00 [DBG] Secret id found: console client
+2019-05-01 11:13:00.088 +08:00 [DBG] client configuration validation for client console client succeeded.
+2019-05-01 11:13:00.102 +08:00 [DBG] Secret validator success: HashedSharedSecretValidator
+2019-05-01 11:13:00.103 +08:00 [DBG] Client validation success
+2019-05-01 11:13:00.140 +08:00 [INF] {"ClientId":"console client","AuthenticationMethod":"SharedSecret","Category":"Authentication","Name":"Client Authentication Success","EventType":"Success","Id":1010,"Message":null,"ActivityId":"0HLMDSBKV9LTH:00000003","TimeStamp":"2019-05-01T03:13:00.0000000Z","ProcessId":12828,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"ClientAuthenticationSuccessEvent"}
+2019-05-01 11:13:00.164 +08:00 [DBG] Start token request validation
+2019-05-01 11:13:00.172 +08:00 [DBG] Start client credentials token request validation
+2019-05-01 11:13:00.198 +08:00 [DBG] console client credentials token request validation success
+2019-05-01 11:13:00.209 +08:00 [INF] Token request validation success
+{"ClientId":"console client","ClientName":"Client Credentials Client","GrantType":"client_credentials","Scopes":"api1","AuthorizationCode":null,"RefreshToken":null,"UserName":null,"AuthenticationContextReferenceClasses":null,"Tenant":null,"IdP":null,"Raw":{"grant_type":"client_credentials","scope":"api1","client_id":"console client","client_secret":"***REDACTED***"},"$type":"TokenRequestValidationLog"}
+2019-05-01 11:13:00.238 +08:00 [DBG] Getting claims for access token for client: console client
+2019-05-01 11:13:00.335 +08:00 [INF] {"ClientId":"console client","ClientName":"Client Credentials Client","RedirectUri":null,"Endpoint":"Token","SubjectId":null,"Scopes":"api1","GrantType":"client_credentials","Tokens":[{"TokenType":"access_token","TokenValue":"****vp8Q","$type":"Token"}],"Category":"Token","Name":"Token Issued Success","EventType":"Success","Id":2000,"Message":null,"ActivityId":"0HLMDSBKV9LTH:00000003","TimeStamp":"2019-05-01T03:13:00.0000000Z","ProcessId":12828,"LocalIpAddress":"::1:5000","RemoteIpAddress":"::1","$type":"TokenIssuedSuccessEvent"}
+2019-05-01 11:13:00.344 +08:00 [DBG] Token request success.
+2019-05-01 11:13:08.478 +08:00 [DBG] Request path /.well-known/openid-configuration matched to endpoint type Discovery
+2019-05-01 11:13:08.481 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint
+2019-05-01 11:13:08.483 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration
+2019-05-01 11:13:08.485 +08:00 [DBG] Start discovery request
+2019-05-01 11:13:08.625 +08:00 [DBG] Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery
+2019-05-01 11:13:08.628 +08:00 [DBG] Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint
+2019-05-01 11:13:08.629 +08:00 [INF] Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks
+2019-05-01 11:13:08.630 +08:00 [DBG] Start key discovery request

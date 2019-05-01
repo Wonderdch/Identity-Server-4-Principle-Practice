@@ -329,3 +329,4 @@ ASALocalRun/
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
 /Idp/tempkey.rsa
+/Api1Resource/.vscode
