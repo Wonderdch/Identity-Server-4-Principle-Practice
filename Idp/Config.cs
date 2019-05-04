@@ -14,8 +14,13 @@ namespace Idp
         {
             return new IdentityResource[]
             {
+                // 要请求下面 OpenID 相关的资源，必须先添加它
                 new IdentityResources.OpenId(),
+
                 new IdentityResources.Profile(),
+                new IdentityResources.Address(),
+                new IdentityResources.Phone(),
+                new IdentityResources.Email()
             };
         }
 
@@ -38,9 +43,26 @@ namespace Idp
                     ClientName = "Client Credentials Client",
 
                     AllowedGrantTypes = GrantTypes.ClientCredentials,
-                    ClientSecrets = { new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256()) },
+                    ClientSecrets = {new Secret("511536EF-F270-4058-80CA-1C89C192F69A".Sha256())},
 
-                    AllowedScopes = { "api1" ,IdentityServerConstants.StandardScopes.OpenId}
+                    AllowedScopes = {"api1", IdentityServerConstants.StandardScopes.OpenId}
+                },
+
+                // WPF client, password grant
+                new Client
+                {
+                    ClientId = "wpf client",
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                    ClientSecrets = {new Secret("wpf secret".Sha256())},
+                    AllowedScopes =
+                    {
+                        "api1",
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Profile,
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.Address,
+                        IdentityServerConstants.StandardScopes.Phone
+                    }
                 }
             };
         }
