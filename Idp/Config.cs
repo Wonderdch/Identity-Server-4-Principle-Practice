@@ -63,7 +63,39 @@ namespace Idp
                         IdentityServerConstants.StandardScopes.Address,
                         IdentityServerConstants.StandardScopes.Phone
                     }
-                }
+                },
+
+                // MVC client, authorization code
+                new Client
+                {
+                    ClientId = "mvc client",
+                    ClientName = "ASP.NET Core MVC Client",
+
+                    AllowedGrantTypes = GrantTypes.CodeAndClientCredentials,
+                    ClientSecrets = { new Secret("mvc secret".Sha256()) },
+
+                    RedirectUris = { "http://localhost:5002/signin-oidc" },
+
+                    FrontChannelLogoutUri = "http://localhost:5002/signout-oidc",
+                    PostLogoutRedirectUris = { "http://localhost:5002/signout-callback-oidc" },
+
+                    // 总是在 Id Token 里面包含所有 User Claims 信息
+                    AlwaysIncludeUserClaimsInIdToken = true,
+
+                    // 设为 True 即支持 Refresh Token
+                    AllowOfflineAccess = true, // offline_access
+                    AccessTokenLifetime = 60, // 60 seconds
+
+                    AllowedScopes =
+                    {
+                        "api1",
+                        IdentityServerConstants.StandardScopes.OpenId,
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.Address,
+                        IdentityServerConstants.StandardScopes.Phone,
+                        IdentityServerConstants.StandardScopes.Profile
+                    }
+                },
             };
         }
     }

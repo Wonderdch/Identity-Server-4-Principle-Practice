@@ -330,3 +330,7 @@ ASALocalRun/
 .mfractor/
 /Idp/tempkey.rsa
 /Api1Resource/.vscode
+/MvcClient/MvcClient/wwwroot/lib
+/MvcClient/MvcClient/wwwroot
+/MvcClient/MvcClient/appsettings.json
+/MvcClient/MvcClient/appsettings.Development.json
