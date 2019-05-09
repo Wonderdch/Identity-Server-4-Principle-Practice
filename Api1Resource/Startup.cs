@@ -35,6 +35,8 @@ namespace Api1Resource
                     options.RequireHttpsMetadata = false;
 
                     options.Audience = "api1";
+                    options.TokenValidationParameters.ClockSkew = TimeSpan.FromMinutes(1);
+                    options.TokenValidationParameters.RequireExpirationTime = true;
                 });
         }
 
